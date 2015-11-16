@@ -14,11 +14,11 @@ class RedsysServiceProvider extends ServiceProvider
     public function boot()
     {
         // Publish config files
-        $this->publishes(
+        /*$this->publishes(
             [
                 __DIR__ . '/config/config.php' => config_path('redsys.php'),
             ], 'config'
-        );
+        );*/
     }
 
     /**
